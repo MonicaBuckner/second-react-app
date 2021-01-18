@@ -70,11 +70,11 @@ export default function Weather() {
         </div>
       </div>
       <footer>
-        <a href="https://github.com/MonicaBuckner/second-react-app" target="_blank">
+        <a href="https://github.com/MonicaBuckner/second-react-app" target="_blank" rel="noreferrer">
           Open-sourced code{" "}
         </a>
         by{" "}
-        <a href="https://www.linkedin.com/in/monica-buckner/" target="_blank">
+        <a href="https://www.linkedin.com/in/monica-buckner/" target="_blank" rel="noreferrer">
           Monica Buckner
         </a>
       </footer>
