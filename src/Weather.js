@@ -1,5 +1,5 @@
 import React from "react";
-import axios from 'axios';
+
 
 export default function Weather() {
   let weatherData = {
@@ -37,7 +37,7 @@ export default function Weather() {
           <div className="col-6">
             <div className="clearfix current-conditions">
               <img
-                src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-image"
+                src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-condition"
                 className="float-left weather-image"
               />
               <div class="float-left">
