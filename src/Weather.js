@@ -37,17 +37,17 @@ export default function Weather() {
           <div className="col-6">
             <div className="clearfix current-conditions">
               <img
-                src="http://openweathermap.org/img/wn/10d@2x.png"
+                src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-image"
                 className="float-left weather-image"
               />
               <div class="float-left">
                 <strong>{weatherData.currentTemp}</strong>
                 <span class="units">
-                  <a href="/" class="active">
+                  <span class="active">
                     {" "}
                     °F
-                  </a>{" "}
-                  | <a href="/"> °C</a>
+                  </span>{" "}
+                  | <span> °C</span>
                 </span>
               </div>
             </div>
@@ -60,17 +60,17 @@ export default function Weather() {
               <li>Humidity: {weatherData.humidity}%</li>
               <li className="units">
                 Windspeed:
-                <a href="/" className="active">
+                <span className="active">
                   {weatherData.wind} MPH
-                </a>
-                |<a href="/">KPH</a>
+                </span>
+                |<span>KPH</span>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <footer>
-        <a href="https://laughing-swirles-f8bcc9.netlify.app/" target="_blank">
+        <a href="https://github.com/MonicaBuckner/second-react-app" target="_blank">
           Open-sourced code{" "}
         </a>
         by{" "}
